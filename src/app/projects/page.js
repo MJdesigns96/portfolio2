@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Languages from "../components/Languages"
 
 export default function Projects() {
     return(
@@ -13,11 +14,15 @@ export default function Projects() {
                 </div>
                 <hr></hr>
                 <div className="row">
-                    <h2>Technologies:</h2>
-                </div>
-                <div className="row">
-                    <div className="col">
-                        <p>technology buttons</p>
+                    <div className="col-12">
+                        <div className="row mb-3">
+                            <h2>Technologies:</h2>
+                        </div>
+                        <div className="row">
+                            <div className="col">
+                            <Languages />
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <hr></hr>
