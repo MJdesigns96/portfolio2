@@ -36,3 +36,14 @@
     border-radius: 20px;
     padding: 0.5em 0;
 }
+
+footer {
+    padding: 2em 2em;
+    color: white;
+    background-color: #080557;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #ffff;
+}

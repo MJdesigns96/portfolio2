@@ -1,5 +1,5 @@
 import Header from "./components/Header";
-import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 
 export default function RootLayout({ children }) {
   return (
@@ -12,6 +12,8 @@ export default function RootLayout({ children }) {
         <Header />
         <hr></hr>
         {children}
+        <hr></hr>
+        <Footer />
       </body>
     </html>
   );

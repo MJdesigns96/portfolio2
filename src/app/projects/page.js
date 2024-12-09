@@ -26,20 +26,35 @@ export default function Projects() {
                     </div>
                 </div>
                 <hr></hr>
-                <div className="row">
-                    <div className="card">
-                        <div className="card-body">
-                            <h3 className="card-title">Project Heading</h3>
-                            <p className="card-test">Descriptive text about the project and its details</p>
-                            <div className="row">
-                                <div className="col"></div>
-                                <div className="col-5">
-                                    <Link className="btn btn-primary" href="/projects/project1">See More</Link>
+                <div className="row mb-5">
+                    <div className="col-6">
+                        <div className="card">
+                            <div className="card-body">
+                                <h3 className="card-title">Project Heading</h3>
+                                <p className="card-test">Descriptive text about the project and its details</p>
+                                <div className="row">
+                                    <div className="col"></div>
+                                    <div className="col-4">
+                                        <Link className="btn btn-primary" href="/projects/project1">See More</Link>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
+                    <div className="col-6">
+                        <div className="card">
+                            <div className="card-body">
+                                <h3 className="card-title">Project Heading</h3>
+                                <p className="card-test">Descriptive text about the project and its details</p>
+                                <div className="row">
+                                    <div className="col"></div>
+                                    <div className="col-4">
+                                        <Link className="btn btn-primary" href="/projects/project1">See More</Link>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
