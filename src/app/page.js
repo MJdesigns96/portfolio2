@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import Languages from "./components/Languages";
+import Project1 from "./projects/project1/page";
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
               <div>
                 <Languages />
               </div>
+              <div><Project1 /></div>
+              <div><Project1 /></div>
           </div>
         </div>
       </div>

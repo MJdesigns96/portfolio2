@@ -21,9 +21,9 @@ export default function AboutMe (props) {
                 </div>
                 <div className="row">
                     <ul>
-                        <li>Cooking 🍳</li>
-                        <li>Exercise 🏋️</li>
-                        <li>Most things nerdy 😁</li>
+                        <li className='list-group-item'>Cooking 🍳</li>
+                        <li className='list-group-item'>Exercise 🏋️</li>
+                        <li className='list-group-item'>Most things nerdy 😁</li>
                     </ul>
                 </div>
                 <div className="row">

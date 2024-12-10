@@ -1,0 +1,11 @@
+.social-div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 40px;
+}
+
+.social-link {
+    height: 100%;
+    width: 100%;
+}
