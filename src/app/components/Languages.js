@@ -47,18 +47,39 @@ export default function Languages() {
     let DB = randomDivs(tech.database);
 
     const renderFED = FED.map(entry => 
-        <div className="language col-2 text-center">
-            <p className="pill">{entry}</p>
+        <div className="language col-3 text-center pill mr-2 mb-2" key={FED.indexOf(entry)}>
+            <div className="row">
+                <div className="col-2 mt-3">
+                    <div className="ball" style={{backgroundColor: "#ffe6fd"}}></div>
+                </div>
+                <div className="col mt-3">
+                    <p className="">{entry}</p>
+                </div>
+            </div>
         </div>
     )
     const renderBED = BED.map(entry => 
-        <div className="language col-2 text-center">
-            <p className="pill">{entry}</p>
+        <div className="language col-3 text-center pill mr-1 mb-1" key={BED.indexOf(entry)}>
+            <div className="row">
+                <div className="col-2 mt-3">
+                    <div className="ball" style={{backgroundColor: "rgb(228, 241, 255)"}}></div>
+                </div>
+                <div className="col mt-3">
+                    <p className="">{entry}</p>
+                </div>
+            </div>
         </div>
     )
     const renderDB = DB.map(entry => 
-        <div className="language col-2 text-center">
-            <p className="pill">{entry}</p>
+        <div className="language col-3 text-center pill" key={DB.indexOf(entry)}>
+            <div className="row">
+                <div className="col-2 mt-3">
+                    <div className="ball" style={{backgroundColor: "rgb(253, 242, 211)"}}></div>
+                </div>
+                <div className="col mt-3">
+                    <p className="">{entry}</p>
+                </div>
+            </div>
         </div>
     )
 
@@ -69,7 +90,7 @@ export default function Languages() {
                     <div className="FED row">
                         <div className="col">
                             <h3 className="mb-3">Front End</h3>
-                            <div className="row">
+                            <div className="row pill-container">
                                 {renderFED}
                             </div>
                         </div>
@@ -78,7 +99,7 @@ export default function Languages() {
                     <div className="BED row">
                         <div className="col">
                         <h3 className="mb-3">Back End</h3>
-                            <div className="row">
+                            <div className="row pill-container">
                                 {renderBED}
                             </div>
                         </div>
@@ -87,7 +108,7 @@ export default function Languages() {
                     <div className="DB row">
                         <div className="col">
                         <h3 className="mb-3">Database</h3>
-                            <div className="row">
+                            <div className="row pill-container">
                                 {renderDB}
                             </div>
                         </div>
@@ -96,10 +117,17 @@ export default function Languages() {
                     <div className="Design row">
                         <div className="col">
                         <h3 className="mb-3">Design</h3>
-                            <div className="row ml-1">
-                                <p className="pill col-2 text-center">
-                                    {tech.design}
-                                </p>
+                            <div className="row ml-1 pill-container">
+                                <div className="pill col-2 text-center">
+                                    <div className="row">
+                                        <div className="col-2 mt-3">
+                                            <div className="db-ball ball"></div>
+                                        </div>
+                                        <div className="col mt-3">
+                                            <p className="">{tech.design}</p>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

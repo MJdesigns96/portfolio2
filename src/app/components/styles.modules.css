@@ -33,8 +33,13 @@
 
 .pill {
     background-color: white;
+    border: solid 1px rgb(230, 230, 230);
     border-radius: 20px;
-    padding: 0.5em 0;
+    margin-right: 2em;
+}
+
+.pill.col-3 {
+    max-width: 200px;
 }
 
 footer {
@@ -46,4 +51,15 @@ footer {
 .divider {
     border: 0;
     border-top: 1px solid #ffff;
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 20px;
+}
+
+.db-ball {
+    background-color: #ffe6f3;
 }
