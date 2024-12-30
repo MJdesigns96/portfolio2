@@ -31,7 +31,7 @@ export default function AboutMe (props) {
                 </div>
             </div>
             <div className="col">
-                <Carousel>
+                <Carousel interval={null}>
                     <CarouselItem >
                         <img className="d-block w-100 object-fit-cover" style={{height: "75vh"}} src={profile.src} alt="Profile Picture" />
                     </CarouselItem>
