@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "StoreFront Project",
+        "description" : "Using NextJs, MongoDB, and Mongoose create a storefront that pulls data from the database and pass the information down to the component parts through NextJS and React.",
+        "technologies" : [
+            "React",
+            "NextJS",
+            "MongoDB"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "8Bit Image Convertor",
+        "description" : "Using Scratch, an image converter NodeJS library, convert an uploaded image into 256x256px then convert the image into 16px squares to create an 8bit effect.",
+        "technologies" : [
+            "JS",
+            "NodeJS"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Entity Framework - Final Project",
+        "description" : "Using Entity Framework and ASP.Net create a passion project SQL database and create Models, Controllers, and views to allow users to use all CRUD methods.",
+        "technologies" : [
+            "C#",
+            "ASP.Net",
+            "Entity Framework",
+            "JS",
+            "SQL"
+        ]
+    }, 
+    {
+        "id": 4,
+        "title": "Model Car Project Site",
+        "description" : "In a group, use a SQL database and create pages that show users different pages to make use of CRUD features with the database.",
+        "technologies" : [
+            "php",
+            "SQL",
+            "JS",
+            "CSS"
+        ]
+    }
+]

@@ -17,9 +17,11 @@ export default function Hero () {
                 <div className="row">
                     <div className="col">
                         <h3>Currently: </h3>
+                        <p>Web Development Program</p>
                     </div>
                     <div className="col">
                         <h3>Based in: </h3>
+                        <p>Toronto, Canada</p>
                     </div>
                 </div>  
             </div>
