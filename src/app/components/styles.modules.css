@@ -1,7 +1,7 @@
-.languages {
+.language {
     background-color: #e3fce3;
     border-radius: 20px;
-    padding: 3em 3em;
+    padding: 1em 1em;
 }
 
 .FED {
@@ -35,11 +35,7 @@
     background-color: white;
     border: solid 1px rgb(230, 230, 230);
     border-radius: 20px;
-    margin-right: 2em;
-}
-
-.pill.col-3 {
-    max-width: 200px;
+    margin-right: 1em;
 }
 
 footer {

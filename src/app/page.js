@@ -15,14 +15,10 @@ export default function Home() {
         <div className="row">
           <div className="col-12">
             <div className="row">
-                  <p className="mb-4 mt-3">Here are a list of some languages and technologies I've worked on.</p>
-              </div>
-              <div>
-                <Languages />
-              </div>
-              <div><Project1 /></div>
-              <div><Project1 /></div>
+                <p className="mb-4 mt-3">Here are a list of some languages and technologies I've worked on.</p>
+            </div>
           </div>
+            <Project1 />
         </div>
       </div>
     </div>
