@@ -5,7 +5,6 @@ import githubLogo from '../../../../public/github-mark.svg';
 
 export default function Project1 () {
     const languages = [
-        "MERN",
         "MongoDB",
         "Express",
         "React",
@@ -26,11 +25,19 @@ export default function Project1 () {
                             <Pill props = {languages} />
                         </div>
                         <p className="card-text">
-                            A cumulative 7 week project that is meant to showcase our skills gained throughout the course.
-                            For this project I made an ecommerce site using a MERN stack. The main features are the ability for users to find products, add them to a cart, and checkout through the use of localstorage.
+                            A cumulative 6 week project that is meant to showcase our skills gained throughout the year long Web Developement Course.
+                        </p>
+                        <p className="card-text">
+                            For this project I made an ecommerce site using a MERN stack. 
+                            The main user features are the ability for users to find products, add them to a cart, and checkout through the use of localStorage.
                             For administative features, I have CRUD functionality to add, update, and delete products as well as view the user and order lists.
-                            The users are also able to register for accounts and login to see their past transactions.
-                            This is an ongoing work in progress so to see further details please view the github directories.
+                            The users are also able to register for accounts and login to see their past transactions. 
+                        </p>
+                        <p className="card-text">
+                            All the individual products, accounts, and transactions are hosted on a MongoDB database and use an Express server and mongoose to retrive data and pass it to the React + Vite application.
+                        </p>
+                        <p className="card-text">
+                            This is an ongoing work in progress so to see further details please view these github directories.
                         </p>
                         <div className="card-footer">
                             <div className="row">

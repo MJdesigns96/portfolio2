@@ -1,6 +1,8 @@
 import Hero from "./components/Hero";
-import Languages from "./components/Languages";
 import Project1 from "./projects/project1/page";
+import Project2 from "./projects/project2/page";
+import Project3 from "./projects/project3/page";
+import Project4 from "./projects/project4/page";
 
 export default function Home() {
   return (
@@ -19,6 +21,9 @@ export default function Home() {
             </div>
           </div>
             <Project1 />
+            <Project2 />
+            <Project3 />
+            <Project4 />
         </div>
       </div>
     </div>
