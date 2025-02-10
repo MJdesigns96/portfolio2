@@ -17,7 +17,8 @@ export default function Home() {
         <div className="row">
           <div className="col-12">
             <div className="row">
-                <p className="mb-4 mt-3">Here are a list of some languages and technologies I've worked on.</p>
+              <h2>Projects</h2>
+              <p className="mb-4 mt-3 fs-4">Here are some projects that I have worked on:</p>
             </div>
           </div>
             <Project1 />
