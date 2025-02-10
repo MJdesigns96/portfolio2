@@ -5,41 +5,38 @@ import {Carousel, CarouselItem} from 'react-bootstrap';
 
 export default function AboutMe (props) {
     return (
-        <div className="row">
-            <div className="col">
+        <div className="row mx-auto my-4 px-3">
+            <div className="col-6">
                 <div className="row">
-                    <h1>Marcus Jeong</h1>
-                </div>
-                <div className="row">
-                    <p>Hi there my name is Marcus. I'm a web developer based out of Toronto Ontario, Canada.</p>
-                </div>
-                <div className="row">
-                    <p>Currently studying Web Developement at College and open to taking Work Internship opportunities.</p>
-                </div>
-                <div className="row">
-                    <p>My hobbies include:</p>
-                </div>
-                <div className="row">
-                    <ul>
-                        <li className='list-group-item'>Cooking 🍳</li>
-                        <li className='list-group-item'>Exercise 🏋️</li>
-                        <li className='list-group-item'>Most things nerdy 😁</li>
-                    </ul>
-                </div>
-                <div className="row">
-                    <p>One thing that I focus on is constantly imrpoving. I apply this way of thinking into all aspects of my life from my hobbies to coding. The thing that drew me most to coding is the constant little steps that you set out to do and complete. You realize that a big complex app is a summation of hundreds to thousands of small micro steps that make a big functional app at the end.</p>
+                    <div className="col" data-aos="fade-right" >
+                        <h1>Marcus Jeong</h1>
+                        <p>Hi there my name is Marcus. I'm a web developer based out of Toronto Ontario, Canada.</p>
+                        <p>Currently studying Web Developement at College and open to taking Internship and Work opportunities.</p>
+                        <p>I've tried various different paths before settling on Web Development and I believe the reason I settled on this career path were beacuse of 2 qualities about myself:</p>
+                        <p>My curisotiy to learn about things and my drive to constantly improve.</p>
+                        <p>I've found that in this field you need to constantly keep learning, adapting, and growing your skills using the plethora of resources availble from very talented people online.</p>
+                        <p>Over time I fell in love with improving my skills and being able to apply the things I've learned into products.</p>
+                        <p>I believe these qualities also appear in my hobbies which include:</p>
+                        <ul>
+                            <li className='list-group-item'>Cooking 🍳</li>
+                            <li className='list-group-item'>Exercise 🏋️</li>
+                            <li className='list-group-item'>Most things nerdy 😁</li>
+                        </ul>
+                        <p>I find that being able to break down big problems or goals into smaller steps, slowly experiment, apply those things, and learn over time is found across all my hobbies as well as my code.</p>
+                        <p>If there are any questions about Coding or any of my hobbies please feel free to reach out.</p>
+                    </div>
                 </div>
             </div>
-            <div className="col">
+            <div className="col-6 d-flex align-items-middle justify-content-center" data-aos="fade-left">
                 <Carousel interval={null}>
                     <CarouselItem >
-                        <img className="d-block w-100 object-fit-cover" style={{height: "75vh"}} src={profile.src} alt="Profile Picture" />
+                        <img className="d-block w-100 rounded object-fit-fill" style={{height: "75vh"}} src={profile.src} alt="Profile Picture" />
                     </CarouselItem>
                     <CarouselItem>
-                        <img className="d-block w-100 object-fit-cover" style={{height: "75vh"}} src={food.src} alt="food" />
+                        <img className="d-block w-100 rounded object-fit-fill" style={{height: "75vh"}} src={food.src} alt="food" />
                     </CarouselItem>
                     <CarouselItem>
-                        <img className="d-block w-100 object-fit-cover" style={{height: "75vh"}} src={running.src} alt="Running" />
+                        <img className="d-block w-100 rounded object-fit-fill" style={{height: "75vh"}} src={running.src} alt="Running" />
                     </CarouselItem>
                 </Carousel>
             </div>

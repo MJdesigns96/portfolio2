@@ -9,7 +9,7 @@ import Link from 'next/link';
 
 export default function Contact () {
     return(
-        <div className="row my-5">
+        <div className="row my-5 mx-auto ps-3">
             <div className="col">
                 <div className="row">
                     <h1>Contact Me</h1>
@@ -17,7 +17,7 @@ export default function Contact () {
                 <div className="row">
                     <p className='fs-5'>If you would like to chat about coding or anything else please feel free to reach out or check out any of my links.</p>
                 </div>
-                <div className="row">
+                <div className="row" data-aos="fade-up">
                     <div className='col'>
                         <Link href="https://www.linkedin.com/in/marcus-jeong-b513b6190/" passHref={true} target="_blank">
                             <button className='btn btn-light'>

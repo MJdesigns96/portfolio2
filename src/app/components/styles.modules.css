@@ -41,7 +41,7 @@
 footer {
     padding: 2em 2em;
     color: white;
-    background-color: #080557;
+    background-color: #1d3557;
 }
 
 .divider {
@@ -58,4 +58,16 @@ footer {
 
 .db-ball {
     background-color: #ffe6f3;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #1d3557;
+    z-index: 1;
+}
+
+html {
+    background-color: #a8dadc;
 }

@@ -2,10 +2,10 @@ import temp from '../../../public/F4B2C7A4-A0F0-47F1-A64B-BA1DB4E3DA57.jpeg';
 
 export default function Hero () {
     return (
-        <div className="ro mt-5">
+        <div className="row my-5">
             <div className="col text-center">
                 <div className="row justify-content-center">
-                    <div className="col ms-5">
+                    <div className="col ms-5" data-aos="slide-right">
                         <div className="row text-start mb-5">
                             <h1>Welcome!</h1>
                         </div>
@@ -19,18 +19,18 @@ export default function Hero () {
                             
                         </div>
                     </div>
-                    <div className="col ">
-                        <img src={temp.src} className="img-fluid rounded border border-dark" alt="Profile Image" style={{"height": "60vh", "borderWidth" : "2em"}}/>
+                    <div className="col" data-aos="fade-up">
+                        <img src={temp.src} className="img-fluid rounded" alt="Profile Image" style={{"height": "60vh", "borderWidth" : "2em"}}/>
                     </div>
                 </div>
-                <div className="row mt-5">
+                <div className="row mt-5" data-aos="fade-up">
                     <div className="col">
                         <h2 className='fs-2'>Currently: </h2>
-                        <p>Web Development Program</p>
+                        <p className='fs-4'>Web Development Program</p>
                     </div>
                     <div className="col">
                         <h2>Looking for: </h2>
-                        <p>Internships or Job opportunities</p>
+                        <p className='fs-4'>Internships or Job opportunities</p>
                     </div>
                 </div>  
             </div>

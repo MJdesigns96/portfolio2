@@ -19,7 +19,7 @@ export default function Project1 () {
     ]
 
     return(
-        <div className="card mb-3 col-12 px-0" style={{"maxWidth": "60vw"}}>
+        <div className="card mb-3 col-12 px-0" style={{"maxWidth": "60vw"}} data-aos="fade-up">
             <div className="row g-0">
                 <div className="col-md-4 d-flex align-items-center bg-dark rounded-start">
                     <Carousel interval={null}>
