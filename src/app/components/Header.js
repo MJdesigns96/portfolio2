@@ -3,7 +3,7 @@ import styles from './styles.modules.css';
 
 export default function Header() {
     return(
-        <header>
+        <header className="sticky-top">
             <nav className="navbar navbar-expand-lg py-4">
                 <div className="container-fluid">
                     <Link className="navbar-brand text-light" href="/">Marcus Jeong</Link>

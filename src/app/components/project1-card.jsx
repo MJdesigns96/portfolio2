@@ -3,6 +3,7 @@ import Pill from "@/app/components/Pill";
 import {Carousel, CarouselItem} from 'react-bootstrap';
 // images and svgs
 import githubLogo from '../../../public/github-mark.svg';
+import journal from '../../../public/journal-richtext.svg';
 import pic1 from '../../../public/portfolio pics/cap1.png';
 import pic2 from '../../../public/portfolio pics/cap2.png';
 import pic3 from '../../../public/portfolio pics/cap3.png';
@@ -95,7 +96,24 @@ export default function Project1Card () {
                                         </button>
                                     </Link>
                                 </div>
+                                <div className="col">
+                                    <Link href="/projects/project1" passHref={true}>
+                                        <button type="button" className="btn btn-light">
+                                            <div className="container">
+                                                <div className="row align-items-center">
+                                                    <div className="col-2">
+                                                        <img src={journal.src} style={{"maxHeight": "48px"}} />
+                                                    </div>
+                                                    <div className="col text-center">
+                                                        <h5 className="mb-0">See More</h5>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </button>
+                                    </Link>
+                                </div>
                             </div>
+                            
                             <p className="card-text mt-2">
                                 <small className="text-body-secondary">Last updated: February 2025</small>
                             </p>
