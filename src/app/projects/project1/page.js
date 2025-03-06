@@ -1,8 +1,19 @@
 import Link from "next/link"
 import Pill from "@/app/components/Pill"
-import {Carousel, CarouselItem} from 'react-bootstrap';
+import {Carousel, CarouselItem, CarouselCaption} from 'react-bootstrap';
 import styles from './styles.modules.css';
 //images and svgs
+import productCard from '../../../../public/product-cards.png';
+import productDetails from '../../../../public/product-detail.png';
+import checkoutCart from '../../../../public/cart-details.png';
+import checkoutSuccess from '../../../../public/checkout.png';
+
+import adminDash from '../../../../public/admin-dashboard.png';
+import adminReadProducts from '../../../../public/admin-read-products.png';
+import adminAddProduct from '../../../../public/admin-update-product.png';
+import adminUpdateProduct from '../../../../public/admin-add-product.png';
+import adminDeleteProduct from '../../../../public/admin-delete-product.png';
+import adminViewOrders from '../../../../public/admin-view-orders.png';
 
 export default function Project1 () {
     const languages = [
@@ -14,7 +25,7 @@ export default function Project1 () {
     ]
 
     return(
-        <div className="container my-5 mx-3">
+        <div className="container my-5 mx-3 p-0">
             <nav className="nav" id="stickyNav">
                 <div className="row">
                     <div className="col">
@@ -95,7 +106,7 @@ export default function Project1 () {
                 <p>The main features for this ecommerce website can be split into two groups: Customer and Administrator.</p>
                 {/* make a carousel of pictures of the features */}
                 <div className="col">
-                    <div className="row">
+                    <div className="row mb-3">
                         <h4>Customer</h4>
                         <p>The most important feature to have for an ecommerce site is to allow the customer/user to select a product and checkout.</p>
                         <p>In order to achieve this it is necessary to allow the user to view different products, add them to a cart, and then retrieve their selected product(s) as they checkout.</p>
@@ -106,11 +117,53 @@ export default function Project1 () {
                         <p>When the checkout is prompted a method will save the details and send that data back through the server to the orders database.</p>
                         <p>There will also be a register and login feature for the user so they can access and change their information, which can be preloaded for faster checkout, and orders, based on order id.</p>
                     </div>
+                    <div className="row d-flex align-items-middle justify-content-center">
+                         <div className="col-6 d-flex align-items-middle justify-content-center rounded">
+                            <Carousel className="rounded" interval={null}>
+                                <CarouselItem>
+                                    <img className="d-block rounded" style={{width: "50vw"}} src={productCard.src} alt="Product Detail Cards" />
+                                </CarouselItem>
+                                <CarouselItem>
+                                    <img className="d-block rounded" style={{width: "50vw"}} src={productDetails.src} alt="Expanded Product Details" />
+                                </CarouselItem>
+                                <CarouselItem>
+                                    <img className="d-block rounded" style={{width: "50vw"}} src={checkoutCart.src} alt="User Cart" />
+                                </CarouselItem>
+                                <CarouselItem>
+                                    <img className="d-block rounded" style={{width: "50vw"}} src={checkoutSuccess.src} alt="Checkout" />
+                                </CarouselItem>
+                            </Carousel>
+                        </div>
+                    </div>
                     <div className="row">
                         <h4>Admin</h4>
                         <p>For the admin features the most important features would be to be able to Create, Read, Update, and Delete the various products.</p>
                         <p>In order to do this, various Post and Get methods are sent through the client and run the specific server and mongoose method to run its respective mongodb method.</p>
                         <p>In addition to product CRUD methods, there should be a way to list the Orders and Users that are registered for the website.</p>
+                    </div>
+                    <div className="row d-flex align-items-middle justify-content-center">
+                         <div className="col-6 d-flex align-items-middle justify-content-center rounded">
+                            <Carousel className="rounded" interval={null}>
+                                <CarouselItem>
+                                    <img className="d-block w-100 rounded object-fit-fill" style={{height: "50vh"}} src={adminDash.src} alt="Product Detail Cards" />
+                                </CarouselItem>
+                                <CarouselItem>
+                                    <img className="d-block w-100 rounded object-fit-fill" style={{height: "50vh"}} src={adminReadProducts.src} alt="Expanded Product Details" />
+                                </CarouselItem>
+                                <CarouselItem>
+                                    <img className="d-block w-100 rounded object-fit-fill" style={{height: "50vh"}} src={adminAddProduct.src} alt="User Cart" />
+                                </CarouselItem>
+                                <CarouselItem>
+                                    <img className="d-block w-100 rounded object-fit-fill" style={{height: "50vh"}} src={adminUpdateProduct.src} alt="Checkout" />
+                                </CarouselItem> 
+                                <CarouselItem>
+                                    <img className="d-block w-100 rounded object-fit-fill" style={{height: "50vh"}} src={adminDeleteProduct.src} alt="Checkout" />
+                                </CarouselItem>
+                                <CarouselItem>
+                                    <img className="d-block w-100 rounded object-fit-fill" style={{height: "50vh"}} src={adminViewOrders.src} alt="Checkout" />
+                                </CarouselItem>
+                            </Carousel>
+                        </div>
                     </div>
                 </div>
             </div>
