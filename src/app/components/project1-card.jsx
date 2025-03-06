@@ -4,6 +4,7 @@ import {Carousel, CarouselItem} from 'react-bootstrap';
 // images and svgs
 import githubLogo from '../../../public/github-mark.svg';
 import journal from '../../../public/journal-richtext.svg';
+import browser from '../../../public/browser-chrome.svg';
 import pic1 from '../../../public/portfolio pics/cap1.png';
 import pic2 from '../../../public/portfolio pics/cap2.png';
 import pic3 from '../../../public/portfolio pics/cap3.png';
@@ -65,15 +66,15 @@ export default function Project1Card () {
                         <div className="card-footer">
                             <div className="row">
                                 <div className="col">
-                                    <Link href="https://github.com/MJdesigns96/W25-Capstone-client" passHref={true} target="_blank">
+                                    <Link href="https://capstone-client-sand.vercel.app/" passHref={true} target="_blank">
                                         <button type="button" className="btn btn-light">
                                             <div className="container">
                                                 <div className="row align-items-center">
                                                     <div className="col-2">
-                                                        <img src={githubLogo.src} style={{"maxHeight": "48px"}} />
+                                                        <img src={browser.src} style={{"maxHeight": "48px"}} />
                                                     </div>
                                                     <div className="col text-center">
-                                                        <h5 className="mb-0">Client Side</h5>
+                                                        <h5 className="mb-0">Website</h5>
                                                     </div>
                                                 </div>
                                             </div>
@@ -89,7 +90,7 @@ export default function Project1Card () {
                                                         <img src={githubLogo.src} style={{"maxHeight": "48px"}} />
                                                     </div>
                                                     <div className="col text-center">
-                                                        <h5 className="mb-0">Server Side</h5>
+                                                        <h5 className="mb-0">Github</h5>
                                                     </div>
                                                 </div>
                                             </div>
