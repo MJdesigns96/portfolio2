@@ -17,7 +17,7 @@ export default function Contact () {
                 <div className="row">
                     <p className='fs-5'>If you would like to chat about coding or anything else please feel free to reach out or check out any of my links.</p>
                 </div>
-                <div className="row" data-aos="fade-up">
+                <div className="row">
                     <div className='col'>
                         <Link href="https://www.linkedin.com/in/marcus-jeong-b513b6190/" passHref={true} target="_blank">
                             <button className='btn btn-light'>
@@ -47,7 +47,7 @@ export default function Contact () {
                         </Link>
                     </div>
                     <div className='col'>
-                        <Link href="mailto:marcus.jeong96@gmail.com" passHref={true} target="_blank">
+                        <Link href="mailto=marcus.jeong96@gmail.com" target="_blank">
                             <button className='btn btn-light'>
                                 <div className="row">
                                     <div className="col">
@@ -73,7 +73,6 @@ export default function Contact () {
                             </div>
                         </button>
                     </Link>
-                        
                     </div>
                 </div>
             </div>

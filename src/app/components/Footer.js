@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
     return(
-        <footer data-aos="fade-in">
+        <footer>
             <div className="row mb-3 d-flex justify-content-center">
                 <div className="col-6 text-center">
                     <h2>Marcus Jeong</h2>
