@@ -5,11 +5,12 @@ import {Carousel, CarouselItem} from 'react-bootstrap';
 import githubLogo from '../../../public/github-mark.svg';
 import journal from '../../../public/journal-richtext.svg';
 import browser from '../../../public/browser-chrome.svg';
-import pic1 from '../../../public/portfolio pics/cap1.png';
-import pic2 from '../../../public/portfolio pics/cap2.png';
-import pic3 from '../../../public/portfolio pics/cap3.png';
-import pic4 from '../../../public/portfolio pics/cap4.png';
-import pic5 from '../../../public/portfolio pics/cap5.png';
+// import pic1 from '../../../public/portfolio pics/cap1.png';
+// import pic2 from '../../../public/portfolio pics/cap2.png';
+// import pic3 from '../../../public/portfolio pics/cap3.png';
+// import pic4 from '../../../public/portfolio pics/cap4.png';
+// import pic5 from '../../../public/portfolio pics/cap5.png';
+import pic1 from '../../../public/capstone-1.png';
 
 export default function Project1Card () {
     const languages = [
@@ -23,7 +24,8 @@ export default function Project1Card () {
         <div className="card mb-3 col-12 px-0" style={{"maxWidth": "60vw"}} data-aos="fade-up">
             <div className="row g-0">
                 <div className="col-md-4 d-flex align-items-center bg-dark rounded-start">
-                    <Carousel interval={null}>
+                    <img src={pic1.src} alt="Capstone Project Picture" className="img-fluid rounded-start d-block w-100 object-fit-cover" style={{"maxHeight": "45vh", "objectPosition":"center"}}/>
+                    {/* <Carousel interval={null}>
                         <CarouselItem >
                             <img src={pic1.src} className="img-fluid rounded-start d-block w-100 object-fit-cover" alt="Project Image 1" style={{"maxHeight": "45vh", "objectPosition":"center"}} />
                         </CarouselItem>
@@ -39,7 +41,7 @@ export default function Project1Card () {
                         <CarouselItem>
                             <img src={pic5.src} className="img-fluid rounded-start d-block w-100 object-fit-cover" alt="Project Image 5" style={{"maxHeight": "45vh", "objectPosition":"center"}} />
                         </CarouselItem>
-                    </Carousel>
+                    </Carousel> */}
                 </div>
                 <div className="col-md-8 bg-secondary-subtle">
                     <div className="card-body my-auto">

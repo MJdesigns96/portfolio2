@@ -20,7 +20,8 @@ export default function Project2 () {
         <div className="card mb-3 col-12 px-0" style={{"maxWidth": "60vw"}} data-aos="fade-up">
             <div className="row g-0">
                 <div className="col-md-4 d-flex align-items-center justify-content-center bg-dark rounded-start">
-                    <Carousel interval={null}>
+                    <img src={next1.src} alt="NextJS Project Picture" className="img-fluid rounded-start d-block w-100 object-fit-cover" style={{"maxHeight": "45vh", "objectPosition":"center"}}/>
+                    {/* <Carousel interval={null}>
                         <CarouselItem >
                             <img src={next1.src} className="img-fluid rounded-start d-block w-100 object-fit-fill " alt="Project Image 1" style={{"maxHeight": "45vh"}} />
                         </CarouselItem>
@@ -33,7 +34,7 @@ export default function Project2 () {
                         <CarouselItem>
                             <img src={next4.src} className="img-fluid rounded-start d-block w-100 object-fit-cover" alt="Project Image 4" style={{"maxHeight": "45vh"}} />
                         </CarouselItem>
-                    </Carousel>
+                    </Carousel> */}
                 </div>
                 <div className="col-md-8 bg-secondary-subtle">
                     <div className="card-body my-auto">
