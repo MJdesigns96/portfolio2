@@ -3,6 +3,7 @@ import Pill from "@/app/components/Pill"
 import {Carousel, CarouselItem, CarouselCaption} from 'react-bootstrap';
 import styles from './styles.modules.css';
 //images and svgs
+import capstone from '../../../../public/capstone-1.png'
 import productCard from '../../../../public/product-cards.png';
 import productDetails from '../../../../public/product-detail.png';
 import checkoutCart from '../../../../public/cart-details.png';
@@ -57,10 +58,14 @@ export default function Project1 () {
                 <Pill props = {languages} />
             </div>
             <span className="target" id="intro"></span>
+            <div className="row bg-dark my-5">
+                    <img src={capstone.src} className="d-block rounded mx-auto " style={{maxWidth: '50vw'}} alt="Capstone Picture" />
+                </div>
             <div className="row">
                 <h3>Introduction</h3>
                 <p>This project was meant to showcase the skills I had gained throughout a year long Web Development Course at Humber College.</p>
                 <p>The objective of this project was to create a E-commerce app from scratch with a focus on both the customer and admin users.</p>
+                <p>I had chosen to create an online shoe store that the customer can browse, add items to cart, then checkout with while letting the admin keep a record of each user, order, as well as being able to Create, Read, Update, and Deleting their products.</p>
                 <p>For this project, a MERN stack was used:</p>
                 <div className="col mx-5 mb-2">
                     <ul className="list-group">
@@ -70,6 +75,7 @@ export default function Project1 () {
                         <li>and NodeJS was used to run these processes in a web server.</li>
                     </ul>     
                 </div>
+                {/* image of  User Stories*/}
                 <p>Our capstone project was assigned along with a set of user stories that we were meant to address through the different features of the web application.</p>
                 <p>For this project there were several user stories for the Customer/User that were chosen.</p>
                 <div className="col mx-5 mb-2">
@@ -92,6 +98,7 @@ export default function Project1 () {
                 <p>With these considerations in mind, the next step that I took was to create a database layout for this project.</p>
             </div>
             <span className="target" id="database"></span>
+            {/* make image of mongodb */}
             <div className="row">
                 <h3>Database</h3>
                 <p>I had chosen to use MongoDB for this project meaning that I would be sending and retreiving JSON objects between the database, server, and client components.</p>
@@ -173,6 +180,7 @@ export default function Project1 () {
                 {/* JSON Object notation; using mongo everything had to be an object and having to convert the details weren't a problem, however, to go from a form, save it to an object, then save it under localhost as an object, convert the form object as a string to */}
                 <div className="col">
                     <div className="row">
+                        {/* whiteboard conversion chart */}
                         <h4>Object Conversions</h4>
                         <p>One of the first problems that I ran through while working on this project was the need to convert objects then reconvert them.</p>
                         <p>This was expected because using MongoDB all of the data being retreived or sent will have to be in JSON notation.</p>
@@ -180,6 +188,7 @@ export default function Project1 () {
                         <p>To tackle these problems, I had gone through various forums and guides to learn about how to best convert and revocent these objects as well as how to set up methods to deal with form changes before the objects were passed through the server.</p>
                     </div>
                     <div className="row">
+                        {/* js vs ts */}
                         <h4>Loose typed vs Strict type Language</h4>
                         <p>As an extension to the object saving issue, a problem arose with the use of Javascript. React using native Javascript, which is a loose typed language caused an issue in this specific project because the ecommerce site was dealing with shoes.</p>
                         <p>Shoes are usually broken down into sizes based on Numbers and while saving this data into MongoDB, the sizes were saved as such.</p>
@@ -188,6 +197,7 @@ export default function Project1 () {
                         <p>To address these problems, a workaround was done where the various sizes were mapped into an array then the array method would checke if they were in stock or not.</p>
                     </div>
                     <div className="row">
+                        {/* blob object storage */}
                         <h4>Images and base64</h4>
                         <p>Another problem I had encountered was the use of images and saving them in base64.</p>
                         <p>Originally, the plan was to save various images to mongodb directly and have them be pulled in the same object that had the other details for each product.</p>
@@ -216,6 +226,5 @@ export default function Project1 () {
                 <p>Overall, this project has given me a new appreciation for ecommerce developers and the vast teams that are required to set everything up as well as maintain them in order for issues and bugs to not arise as a customer goes through the ecommerce process.</p>
             </div>
         </div>
-        
     )
 }
