@@ -10,19 +10,23 @@ export default function AboutMe (props) {
                 <div className="row">
                     <div className="col" data-aos="fade-right" >
                         <h1>Marcus Jeong</h1>
-                        <p>Hi there, my name is Marcus. I'm a web developer based out of Toronto Ontario, Canada.</p>
-                        <p>Currently studying Web Developement at College and open to taking Internship and Work opportunities.</p>
-                        <p>I've tried various different paths before settling on Web Development and I believe the reason I settled on this career path were beacause of 2 qualities about myself:</p>
-                        <p>My curiosity to learn about things and my drive to constantly improve.</p>
-                        <p>I've found that in this field you need to constantly keep learning, adapting, and growing your skills using the plethora of resources available from very talented people online.</p>
-                        <p>Over time I fell in love with improving my skills and being able to apply the things I've learned into products.</p>
-                        <p>I believe these qualities also appear in my hobbies which include:</p>
+                        <p>Hi there, my name is Marcus. I'm a Full Stack web developer based out of Toronto Ontario, Canada.</p>
+                        <p>I've tried various different paths before settling on Web Development.</p>
+                        <p>In school I had studied Philosophy and Psychology because I was interested in the workings of the Human Mind. How and why we make decisions and how we think about those descisions.</p>
+                        <p>From this study I had tried various paths before settling on the tech industry. Originally, I had studied UX/UI Design with a focus on UX research. I was fascinated by how people interacted with online media and how design decisions could greatly influence how users would move through a digital product.</p>
+                        <p>While studying UX/UI, I had started to code and had fallen in love with developing websites and applications.</p>
+                        <p>I fell in love with Web Development because it allows me to pursue 2 goals that I find across all of my hobbies and my professional goals: </p>
+                        <p>Allowing me to constantly imrpove and to let me research about topics to find solutions.</p>
+                        <p>I love to get better over time and have fallen in love with the continuous growth that this field allows me to do. I am always learning, testing new things, and becoming a better developer over time.</p>
+                        <p>Every time I run into a problem I am able to search online and research on a solution.</p>
+                        <p>These two things are important to me because I find comfort in being able to be adaptable and learn. I love improving step by step as well as researching on my own on new ways to imrpove.</p>
+
+                        <p>I believe these qualities also appear in my hobbies some of which include:</p>
                         <ul>
                             <li className='list-group-item'>Cooking 🍳</li>
                             <li className='list-group-item'>Exercise 🏋️</li>
                             <li className='list-group-item'>Most things nerdy 😁</li>
                         </ul>
-                        <p>I find that being able to break down big problems or goals into smaller steps, slowly experiment, apply those things, and learn over time is found across all my hobbies as well as my code.</p>
                         <p>If there are any questions about Coding or any of my hobbies please feel free to reach out.</p>
                     </div>
                 </div>
