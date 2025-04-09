@@ -52,7 +52,7 @@ export default function Project1 () {
             </nav>
             <h1>Capstone Project</h1>
             <small>A cumulative 6 week project that is meant to showcase our skills gained throughout the year long Web Developement Course.</small>
-            <div className="my-3 row">
+            <div className="my-3 row d-none d-lg-flex">
                 <h3>Technologies:</h3>
                 <Pill props = {languages} />
             </div>

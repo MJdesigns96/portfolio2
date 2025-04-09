@@ -17,7 +17,7 @@ export default function Project3 () {
     ]
 
     return(
-        <div className="card mb-3 col-12 px-0" style={{"maxWidth": "60vw"}} data-aos="fade-up">
+        <div className="card mb-3 col-12 px-0 vw-75" data-aos="fade-up">
             <div className="row g-0">
                 <div className="col-md-4 d-flex align-items-center justify-content-center bg-dark rounded-start">
                     <Carousel interval={null}>
@@ -38,7 +38,7 @@ export default function Project3 () {
                 <div className="col-md-8 bg-secondary-subtle">
                     <div className="card-body my-auto">
                         <h3 className="card-title mt-3">EF+.NET Group Project</h3>
-                        <div className="row mb-3 ms-3">
+                        <div className="row mb-3 ms-3 d-none d-lg-flex">
                             <small className="mb-2">Technologies:</small>
                             <Pill props = {languages} />
                         </div>
