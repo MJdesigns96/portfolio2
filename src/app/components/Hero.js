@@ -5,14 +5,14 @@ export default function Hero () {
         <div className="row my-5">
             <div className="col text-center">
                 <div className="row justify-content-center">
-                    <div className="col ms-xs-3 ms-lg-5" data-aos="slide-right">
+                    <div className="col ms-5 me-3" data-aos="slide-right">
                         <div className="row text-xl-center mb-5">
                             <h1>Welcome!</h1>
                         </div>
                         <div className="row text-start">
                             <div className="col">
-                                <p className='fs-4'>Hi my name is Marcus and I am a Full Stack Developer based out of Toronto Ontario, Canada.</p>
-                                <p className='fs-4'>I have worked on projects with MERN, ASP.Net, Next.Js, and Php/Laravel</p>
+                                <p className='fs-4'>Hi my name is Marcus and I am a Full Stack Developer based out of Toronto, Ontario, Canada.</p>
+                                <p className='fs-4'>I have worked on projects using MERN, ASP.Net, Next.js, and PHP/Laravel.</p>
                                 <p className='fs-4'>If you want to see some of my work please check out my projects listed below.</p>
                                 <p className='fs-4'>Thanks for stopping by and enjoy your stay.</p>
                             </div>
