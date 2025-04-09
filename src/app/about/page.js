@@ -5,11 +5,25 @@ import {Carousel, CarouselItem} from 'react-bootstrap';
 
 export default function AboutMe (props) {
     return (
-        <div className="row mx-auto my-4 px-3">
-            <div className="col-6">
+        <>
+            <div className="row mx-auto my-4 px-3">
+            <div className="col">
                 <div className="row">
                     <div className="col" data-aos="fade-right" >
                         <h1>Marcus Jeong</h1>
+                        <div className='row d-flex d-lg-none align-items-middle justify-content-center'>
+                            <Carousel interval={null}>
+                                <CarouselItem >
+                                    <img className="d-block w-100 rounded object-fit-fill" style={{height: "75vh"}} src={profile.src} alt="Profile Picture" />
+                                </CarouselItem>
+                                <CarouselItem>
+                                    <img className="d-block w-100 rounded object-fit-fill" style={{height: "75vh"}} src={food.src} alt="food" />
+                                </CarouselItem>
+                                <CarouselItem>
+                                    <img className="d-block w-100 rounded object-fit-fill" style={{height: "75vh"}} src={running.src} alt="Running" />
+                                </CarouselItem>
+                            </Carousel>
+                        </div>
                         <p>Hi there, my name is Marcus. I'm a Full Stack web developer based out of Toronto Ontario, Canada.</p>
                         <p>I've tried various different paths before settling on Web Development.</p>
                         <p>In school I had studied Philosophy and Psychology because I was interested in the workings of the Human Mind. How and why we make decisions and how we think about those descisions.</p>
@@ -31,7 +45,7 @@ export default function AboutMe (props) {
                     </div>
                 </div>
             </div>
-            <div className="col-6 d-flex align-items-middle justify-content-center" data-aos="fade-left">
+            <div className="col d-none d-lg-flex align-items-middle justify-content-center" data-aos="fade-left">
                 <Carousel interval={null}>
                     <CarouselItem >
                         <img className="d-block w-100 rounded object-fit-fill" style={{height: "75vh"}} src={profile.src} alt="Profile Picture" />
@@ -45,5 +59,8 @@ export default function AboutMe (props) {
                 </Carousel>
             </div>
         </div>
+        
+        </>
+        
     );
 }
