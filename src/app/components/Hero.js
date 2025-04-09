@@ -6,10 +6,10 @@ export default function Hero () {
             <div className="col text-center">
                 <div className="row justify-content-center">
                     <div className="col ms-5" data-aos="slide-right">
-                        <div className="row text-start mb-5">
+                        <div className="row text-xl-start mb-5">
                             <h1>Welcome!</h1>
                         </div>
-                        <div className="row text-start">
+                        <div className="row text-center text-xl-start">
                             <div className="col-8">
                                 <p className='fs-4'>Hi my name is Marcus and I am a Full Stack Developer based out of Toronto Ontario, Canada.</p>
                                 <p className='fs-4'>I have worked on projects with MERN, ASP.Net, Next.Js, and Php/Laravel</p>
@@ -19,7 +19,7 @@ export default function Hero () {
                             
                         </div>
                     </div>
-                    <div className="col" data-aos="fade-up">
+                    <div className="col d-none d-xl-block" data-aos="fade-up">
                         <img src={temp.src} className="img-fluid rounded" alt="Profile Image" style={{"height": "60vh", "borderWidth" : "2em"}}/>
                     </div>
                 </div>
