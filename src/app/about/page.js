@@ -11,7 +11,7 @@ export default function AboutMe (props) {
                 <div className="row">
                     <div className="col" data-aos="fade-right" >
                         <h1>Marcus Jeong</h1>
-                        <div className='row d-flex d-lg-none align-items-middle justify-content-center'>
+                        <div className='row d-flex d-lg-none align-items-middle justify-content-center mb-3'>
                             <Carousel interval={null}>
                                 <CarouselItem >
                                     <img className="d-block w-100 rounded object-fit-fill" style={{height: "75vh"}} src={profile.src} alt="Profile Picture" />
