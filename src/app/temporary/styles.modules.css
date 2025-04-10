@@ -1,0 +1,22 @@
+:root {
+    --bg-primary: #121212;
+    --bg-cards: #1E1E1E;
+    --text-pri: #FFFFFF;
+    --text-second: #B3B3B3;
+    --accent-pri: #6E56CF;
+    --accent-second: #64DFDF;
+    --accent-third: #FF7D3B;
+    --success: #4CAF50;
+    --warning: #FFC107;
+    --error: #F44336;
+    --info: #2196F3;
+}
+
+.intro {
+    color: var(--text-pri);
+    background-color: var(--bg-primary);
+}
+
+.intro p {
+    color: var(--text-second);
+}
