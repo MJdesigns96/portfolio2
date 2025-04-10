@@ -51,19 +51,11 @@ export default function Project1Card () {
                             <Pill props = {languages} />
                         </div>
                         <p className="card-text">
-                            A cumulative 6 week project that is meant to showcase our skills gained throughout the year long Web Developement Course.
+                            A 6 week project that is meant to showcase our skills gained throughout the year long Web Developement Course.
                         </p>
                         <p className="card-text">
-                            For this project I made an ecommerce site using a MERN stack. 
-                            The main user features are the ability for users to find products, add them to a cart, and checkout through the use of localStorage.
-                            For administative features, I have CRUD functionality to add, update, and delete products as well as view the user and order lists.
-                            The users are also able to register for accounts and login to see their past transactions. 
-                        </p>
-                        <p className="card-text">
-                            All the individual products, accounts, and transactions are hosted on a MongoDB database and use an Express server and mongoose to retrive data and pass it to the React + Vite application.
-                        </p>
-                        <p className="card-text">
-                            This is an ongoing work in progress so to see further details please view these github directories.
+                            For this project I made an E-Commerce site focusing on footwear using a MERN stack. 
+                            Has the MVP for both customers and administrators when using an E-commerce site.
                         </p>
                         <div className="card-footer">
                             <div className="row">
@@ -108,7 +100,7 @@ export default function Project1Card () {
                                                         <img src={journal.src} style={{"maxHeight": "48px"}} />
                                                     </div>
                                                     <div className="col text-center">
-                                                        <h5 className="mb-0">See More</h5>
+                                                        <h5 className="mb-0">Case Study</h5>
                                                     </div>
                                                 </div>
                                             </div>
