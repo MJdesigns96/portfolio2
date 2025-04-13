@@ -20,3 +20,15 @@
 .intro p {
     color: var(--text-second);
 }
+
+.img-container {
+    width: 400px;
+    height: 400px;
+    background-color: var(--bg-cards);
+}
+
+.profile-img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
