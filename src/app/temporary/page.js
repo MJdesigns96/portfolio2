@@ -102,13 +102,13 @@ export default function Temporary() {
                     <div className="col-6">
                         <div className="row p-3">
                             <h1>
-                                <Typewriter text="Hi there 🖐️, my name is Marcus." delay={50} isItDone={isItDone} />
+                                <Typewriter text="Hi there 🖐️, I'm Marcus." delay={50} isItDone={isItDone} />
                             </h1>
                         </div>
                         <div className="row p-3">
                             {secondType}
                         </div>
-                        <div className="row p-3 pseudo-code rounded d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                        <div className="row p-3 ms-3 pseudo-code rounded d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-delay="100">
                             {welcomeCode}
                         </div>
                         <div className="row p-3 mt-5">

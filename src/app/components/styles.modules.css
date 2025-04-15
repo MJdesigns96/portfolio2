@@ -1,4 +1,22 @@
-.language {
+:root {
+    --bg-primary: #121212;
+    --bg-cards: #1E1E1E;
+    --text-pri: #FFFFFF;
+    --text-second: #B3B3B3;
+    --accent-pri: #6E56CF;
+    --accent-second: #64DFDF;
+    --accent-third: #FF7D3B;
+    --success: #4CAF50;
+    --warning: #FFC107;
+    --error: #F44336;
+    --info: #2196F3;
+    --primary-grad: linear-gradient(135deg, #6E56CF 0%, #9B6DFF 100%);
+    --secondary-grad: linear-gradient(135deg, #6E56CF 0%, #9B6DFF 100%);
+    --type-pri : "Inter", sans-serif;
+    --type-second : "Space Grotesk", serif;
+}
+
+language {
     background-color: #e3fce3;
     border-radius: 20px;
     padding: 1em 1em;
@@ -41,7 +59,7 @@
 footer {
     padding: 2em 2em;
     color: white;
-    background-color: #1d3557;
+    background-color: var(--bg-cards);
 }
 
 .divider {
@@ -61,13 +79,16 @@ footer {
 }
 
 header {
-    /* position: sticky;
-    top: 0;
-    overflow: hidden; */
-    background-color: #1d3557;
+    color: var(--text-second);
+    background-color: var(--bg-cards);
     z-index: 1;
 }
 
+header li :hover{
+    border-bottom: 3px solid var(--info);
+    margin: -2px;
+}
+
 html {
-    background-color: #bfe6e7;
+    background-color: #1E1E1E;
 }
