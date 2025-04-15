@@ -10,11 +10,16 @@
     --warning: #FFC107;
     --error: #F44336;
     --info: #2196F3;
+    --primary-grad: linear-gradient(135deg, #6E56CF 0%, #9B6DFF 100%);
+    --secondary-grad: linear-gradient(135deg, #6E56CF 0%, #9B6DFF 100%);
+    --type-pri : "Inter", sans-serif;
+    --type-second : "Space Grotesk", serif;
 }
 
 .intro {
     color: var(--text-pri);
     background-color: var(--bg-primary);
+    font-family: var(--type-pri);
 }
 
 .intro p {
@@ -27,8 +32,25 @@
     background-color: var(--bg-cards);
 }
 
-.profile-img{
+.profile-img {
     width: 350px;
     height: 350px;
     object-fit: cover;
+}
+
+.pseudo-code {
+    background-color: var(--bg-cards);
+    width: 500px;
+    height: 300px;
+}
+
+.txt-accent-pri {
+    color: var(--accent-pri);
+}
+
+.txt-accent-sec {
+    color: var(--accent-second);
+}
+.txt-accent-third {
+    color: var(--accent-third);
 }
