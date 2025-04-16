@@ -30,7 +30,7 @@ const welcomeCode = (
         </p>
         
         <p>
-            <span className="ms-3 txt-accent-third">return </span> <span className="txt-accent-sec">"Hey Hi Hello 🖐️";</span> 
+            <span className="ms-3 txt-accent-third">return </span> <span className="txt-accent-sec">&lt;p&gt;"Hey Hi Hello 🖐️";&lt;/p&gt;</span> 
         </p>
         <p>&#125;;</p>
         <p data-aos="fade-up" data-aos-delay="2000"><span className="txt-accent-sec">SayHello();</span></p>
