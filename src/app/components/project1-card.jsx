@@ -63,11 +63,11 @@ export default function Project1Card () {
                                     <Link href="https://capstone-client-sand.vercel.app/" passHref={true} target="_blank">
                                         <button type="button" className="btn btn-light">
                                             <div className="container">
-                                                <div className="row align-items-center">
+                                                <div className="row align-items-center bg-light">
                                                     <div className="col-2">
                                                         <img src={browser.src} style={{"maxHeight": "48px"}} />
                                                     </div>
-                                                    <div className="col text-center">
+                                                    <div className="col text-center text-dark">
                                                         <h5 className="mb-0">Website</h5>
                                                     </div>
                                                 </div>
@@ -79,11 +79,11 @@ export default function Project1Card () {
                                     <Link href="https://github.com/MJdesigns96/W25-capstone-server" passHref={true} target="_blank">
                                         <button type="button" className="btn btn-light">
                                             <div className="container">
-                                                <div className="row align-items-center">
+                                                <div className="row align-items-center bg-light">
                                                     <div className="col-2">
                                                         <img src={githubLogo.src} style={{"maxHeight": "48px"}} />
                                                     </div>
-                                                    <div className="col text-center">
+                                                    <div className="col text-center text-dark">
                                                         <h5 className="mb-0">Github</h5>
                                                     </div>
                                                 </div>
@@ -95,11 +95,11 @@ export default function Project1Card () {
                                     <Link href="/projects/project1" passHref={true}>
                                         <button type="button" className="btn btn-light">
                                             <div className="container">
-                                                <div className="row align-items-center">
+                                                <div className="row align-items-center bg-light">
                                                     <div className="col-2">
                                                         <img src={journal.src} style={{"maxHeight": "48px"}} />
                                                     </div>
-                                                    <div className="col text-center">
+                                                    <div className="col text-center text-dark">
                                                         <h5 className="mb-0">Case Study</h5>
                                                     </div>
                                                 </div>
