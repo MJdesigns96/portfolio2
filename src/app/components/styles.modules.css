@@ -16,39 +16,6 @@
     --type-second : "Space Grotesk", serif;
 }
 
-language {
-    background-color: #e3fce3;
-    border-radius: 20px;
-    padding: 1em 1em;
-}
-
-.FED {
-    background-color: rgb(255, 230, 253);
-    border-radius: 20px;
-    padding: 1em 1em;
-    margin-bottom: 2em;
-}
-
-.BED {
-    background-color: rgb(228, 241, 255);
-    border-radius: 20px;
-    padding: 1em 1em;
-    margin-bottom: 2em;
-}
-
-.DB {
-    background-color: rgb(253, 242, 211);
-    border-radius: 20px;
-    padding: 1em 1em;
-    margin-bottom: 2em;
-}
-.Design {
-    background-color: rgb(255, 230, 243);
-    border-radius: 20px;
-    padding: 1em 1em;
-    margin-bottom: 2em;
-}
-
 .pill {
     background-color: white;
     border: solid 1px rgb(230, 230, 230);
@@ -91,4 +58,9 @@ header li :hover{
 
 html {
     background-color: #1E1E1E;
+}
+
+.lang {
+    width: 4em;
+    height: 4em;
 }

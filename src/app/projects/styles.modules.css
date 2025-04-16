@@ -1,0 +1,4 @@
+.container {
+    color: var(--text-pri);
+    background-color: var(--bg-primary);
+}

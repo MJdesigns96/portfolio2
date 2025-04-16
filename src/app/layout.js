@@ -11,11 +11,11 @@ export default function RootLayout({ children }) {
         <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"></link>
         <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet"></link>
+        <script src="https://kit.fontawesome.com/50780075e1.js" crossorigin="anonymous"></script>
       </head>
       <body className="container px-0 mx-auto">
         <Header />
         {children}
-        <hr></hr>
         <Footer data-aos="fade-up" />
         <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
       </body>

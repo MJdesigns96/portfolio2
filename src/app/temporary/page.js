@@ -1,11 +1,9 @@
 "use client"
 //necessary to use aos library
-import styles from './styles.modules.css';
 import { React, useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
 import Typewriter from '../components/typewriter';
 import profile from '../../../public/F4B2C7A4-A0F0-47F1-A64B-BA1DB4E3DA57.jpeg'
 
@@ -22,7 +20,7 @@ export default function Temporary() {
     const isItDone = useCallback(()=> {
         setIsDone(isDone + 1);
     }, [isDone]);
-    console.log(isDone);
+    // console.log(isDone);
 
     const welcomeCode = (
         <div>
@@ -62,6 +60,10 @@ export default function Temporary() {
             <div className="col-4">
                 <button type="button" className="btn btn-dark">
                     <Link className="nav-link text-light" href="/projects">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-code-square" viewBox="0 0 16 16">
+                        <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z"/>
+                        <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0m2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0"/>
+                    </svg>
                         Projects
                     </Link>
                 </button>
@@ -93,7 +95,7 @@ export default function Temporary() {
         </div>
         :
         ""
-    )
+    );
 
     return (
         <>

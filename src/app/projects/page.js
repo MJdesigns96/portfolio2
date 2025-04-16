@@ -1,62 +1,19 @@
 import Link from "next/link"
 import Languages from "../components/Languages"
+import styles from './styles.modules.css';
 
 export default function Projects() {
     return(
-        <div className="row">
-            <div className="col">
+        <>
+            <div className="container py-5">
                 <div className="row">
-                    <div className="col">
-                        <h1>Projects</h1>
-                        <p>Thank you for taking an interest in my Prjects.</p>
-                        <p>Listed below are some of my recent work, the languages i've used, and some images.</p>
-                    </div>
+                    <h1>Projects</h1>
                 </div>
-                <hr></hr>
-                <div className="row">
-                    <div className="col-12">
-                        <div className="row mb-3">
-                            <h2>Technologies:</h2>
-                        </div>
-                        <div className="row">
-                            <div className="col">
-                            <Languages />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr></hr>
-                <div className="row mb-5">
-                    <div className="col-6">
-                        <div className="card">
-                            <div className="card-body">
-                                <h3 className="card-title">Project Heading</h3>
-                                <p className="card-test">Descriptive text about the project and its details</p>
-                                <div className="row">
-                                    <div className="col"></div>
-                                    <div className="col-4">
-                                        <Link className="btn btn-primary" href="/projects/project1">See More</Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-6">
-                        <div className="card">
-                            <div className="card-body">
-                                <h3 className="card-title">Project Heading</h3>
-                                <p className="card-test">Descriptive text about the project and its details</p>
-                                <div className="row">
-                                    <div className="col"></div>
-                                    <div className="col-4">
-                                        <Link className="btn btn-primary" href="/projects/project1">See More</Link>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div className="row my-3">
+                    <h2>Technologies:</h2>
+                    <Languages />
                 </div>
             </div>
-        </div>
+        </>        
     )
 }
