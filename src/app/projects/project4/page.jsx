@@ -48,11 +48,11 @@ export default function Project4 () {
                                     <Link href="https://github.com/MJdesigns96/useless-website-pixel" passHref={true} target="_blank">
                                         <button type="button" className="btn btn-light">
                                             <div className="container">
-                                                <div className="row align-items-center">
+                                                <div className="row align-items-center bg-light">
                                                     <div className="col-2">
                                                         <img src={githubLogo.src} style={{"maxHeight": "48px"}} />
                                                     </div>
-                                                    <div className="col text-center">
+                                                    <div className="col text-center text-dark">
                                                         <h5 className="mb-0">Repository</h5>
                                                     </div>
                                                 </div>
