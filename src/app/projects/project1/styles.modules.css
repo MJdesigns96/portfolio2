@@ -4,3 +4,14 @@
     margin-top: -6em;
     visibility: hidden;
 }
+
+.container {
+    color: var(--text-pri);
+    background-color: var(--bg-primary);
+}
+.image {
+    max-width: 50vw !important;
+}
+.imgRow {
+    background-color: var(--bg-cards);
+}

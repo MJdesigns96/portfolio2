@@ -4,16 +4,12 @@ import {Carousel, CarouselItem} from 'react-bootstrap';
 //svg and images
 import githubLogo from '../../../../public/github-mark.svg';
 import next1 from '../../../../public/portfolio pics/nextjs1.png'
-import next2 from '../../../../public/portfolio pics/nextjs2.png'
-import next3 from '../../../../public/portfolio pics/nextjs3.png'
-import next4 from '../../../../public/portfolio pics/nextjs4.png'
 
-export default function Project2 () {
-    const languages = [
-        "NextJS",
+export default function Project2 ({ langs = [] }) {
+    const Projectlangs = [
+        "Next",
         "MongoDB",
-        "React",
-        "Express"
+        "React"
     ]
 
     return(
@@ -21,27 +17,12 @@ export default function Project2 () {
             <div className="row g-0">
                 <div className="col-md-4 d-flex align-items-center justify-content-center bg-dark rounded-start">
                     <img src={next1.src} alt="NextJS Project Picture" className="img-fluid rounded-start d-block w-100 object-fit-cover" style={{"maxHeight": "45vh", "objectPosition":"center"}}/>
-                    {/* <Carousel interval={null}>
-                        <CarouselItem >
-                            <img src={next1.src} className="img-fluid rounded-start d-block w-100 object-fit-fill " alt="Project Image 1" style={{"maxHeight": "45vh"}} />
-                        </CarouselItem>
-                        <CarouselItem>
-                            <img src={next2.src} className="img-fluid rounded-start d-block w-100 object-fit-cover" alt="Project Image 2" style={{"maxHeight": "45vh"}} />
-                        </CarouselItem>
-                        <CarouselItem>
-                            <img src={next3.src} className="img-fluid rounded-start d-block w-100 object-fit-cover" alt="Project Image 3" style={{"maxHeight": "45vh"}} />
-                        </CarouselItem>
-                        <CarouselItem>
-                            <img src={next4.src} className="img-fluid rounded-start d-block w-100 object-fit-cover" alt="Project Image 4" style={{"maxHeight": "45vh"}} />
-                        </CarouselItem>
-                    </Carousel> */}
                 </div>
                 <div className="col-md-8 bg-secondary-subtle">
                     <div className="card-body my-auto">
-                        <h3 className="card-title mt-3">Storefront - NextJS Project</h3>
+                        <h3 className="card-title mt-3">Water Bottle Storefront - NextJS Project</h3>
                         <div className="row mb-3 ms-3 d-none d-lg-flex">
-                            <small className="mb-2">Technologies:</small>
-                            <Pill props = {languages} />
+                            <Pill projectLangs = {Projectlangs} langs = {langs} />
                         </div>
                         <p className="card-text">
                             This project was a final for a Full Stack development course. 

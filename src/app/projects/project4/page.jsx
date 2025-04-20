@@ -6,11 +6,10 @@ import githubLogo from '../../../../public/github-mark.svg';
 import pic1 from '../../../../public/portfolio pics/useless1.png'
 
 
-export default function Project4 () {
-    const languages = [
+export default function Project4 ({ langs = [] }) {
+    const Projectlangs = [
         "JS",
-        "Node.Js",
-        "Scratch"
+        "Node"
     ]
 
     return(
@@ -21,10 +20,9 @@ export default function Project4 () {
                 </div>
                 <div className="col-md-8 bg-secondary-subtle">
                     <div className="card-body my-auto">
-                        <h3 className="card-title mt-3">Useless Website - Pixel Image</h3>
+                        <h3 className="card-title mt-3">8bit Pixel Image Website</h3>
                         <div className="row mb-3 ms-3 d-none d-lg-flex">
-                            <small className="mb-2">Technologies:</small>
-                            <Pill props = {languages} />
+                            <Pill projectLangs = {Projectlangs} langs = {langs} />
                         </div>
                         <p className="card-text">
                             This project was a project for class that was meant to find an interesting idea that might be considered "useless" and build a website or web application with it.

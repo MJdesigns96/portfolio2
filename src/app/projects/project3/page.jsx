@@ -8,39 +8,25 @@ import pic2 from '../../../../public/portfolio pics/asp2.png'
 import pic3 from '../../../../public/portfolio pics/asp3.png'
 import pic4 from '../../../../public/portfolio pics/asp4.png'
 
-export default function Project3 () {
-    const languages = [
-        ".NET",
-        "EF",
-        "C#",
-        "Javascript"
+export default function Project3 ({ langs = [] }) {
+    const Projectlangs = [
+        "net",
+        "CSharp",
+        "SQL",
+        "JS"
     ]
 
     return(
         <div className="card mb-3 col-12 px-0 vw-75" data-aos="fade-up">
             <div className="row g-0">
                 <div className="col-md-4 d-flex align-items-center justify-content-center bg-dark rounded-start">
-                    <Carousel interval={null}>
-                        <CarouselItem>
-                            <img src={pic1.src} className="img-fluid rounded-start d-block w-100" alt="Project Image 1" style={{"maxHeight": "45vh"}} />
-                        </CarouselItem>
-                        <CarouselItem>
-                            <img src={pic2.src} className="img-fluid rounded-start d-block w-100" alt="Project Image 2" style={{"maxHeight": "45vh"}} />
-                        </CarouselItem>
-                        <CarouselItem>
-                            <img src={pic3.src} className="img-fluid rounded-start d-block w-100" alt="Project Image 3" style={{"maxHeight": "45vh"}} />
-                        </CarouselItem>
-                        <CarouselItem>
-                            <img src={pic4.src} className="img-fluid rounded-start d-block w-100" alt="Project Image 4" style={{"maxHeight": "45vh"}} />
-                        </CarouselItem>
-                    </Carousel>
+                    <img src={pic1.src} className="img-fluid rounded-start d-block w-100" alt="Project Image 1" style={{"maxHeight": "45vh"}} />
                 </div>
                 <div className="col-md-8 bg-secondary-subtle">
                     <div className="card-body my-auto">
-                        <h3 className="card-title mt-3">EF+.NET Group Project</h3>
+                        <h3 className="card-title mt-3">Album + Card database - EF+.NET Group Project</h3>
                         <div className="row mb-3 ms-3 d-none d-lg-flex">
-                            <small className="mb-2">Technologies:</small>
-                            <Pill props = {languages} />
+                            <Pill projectLangs = {Projectlangs} langs = {langs} />
                         </div>
                         <p className="card-text">
                             This project was a cumulative project for a Back End Development course. 
