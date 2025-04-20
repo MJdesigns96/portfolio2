@@ -12,7 +12,7 @@ export default function Header() {
                     <Link className="navbar-brand text-light" href="/">Marcus Jeong</Link>
                     <ul className="navbar-nav">
                         <li className="nav-item"><Link className="nav-link text-light" href="/projects">Projects</Link></li>
-                        <li className="nav-item"><Link className="nav-link text-light" href="/about">About Me</Link></li>
+                        <li className="nav-item"><Link className="nav-link text-light" href="/about">About</Link></li>
                         <li className="nav-item"><Link className="nav-link text-light" href="/contact">Contact</Link></li>
                     </ul>          
                 </div>

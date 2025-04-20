@@ -40,7 +40,7 @@
 
 .pseudo-code {
     background-color: var(--bg-cards);
-    width: 500px;
+    max-width: 500px;
     height: 300px;
 }
 
