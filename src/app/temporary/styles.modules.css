@@ -20,3 +20,15 @@
     color: var(--text-pri);
     background-color: var(--bg-primary);
 }
+
+.breadcrumbs {
+    display: inline-flex;
+    align-items: center;
+    margin: 1em 0 !important;
+}
+
+.breadcrumb {
+    color: var(--info);
+    text-decoration: none;
+    margin-bottom: 0 !important;
+}
