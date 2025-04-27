@@ -16,6 +16,13 @@
     --type-second : "Space Grotesk", serif;
 }
 
+/* @media screen and (min-width: 425px) {
+    .container {
+        height: 100vh;
+    }
+} */
+
+
 .intro {
     color: var(--text-pri);
     background-color: var(--bg-primary);
@@ -36,6 +43,19 @@
     width: 350px;
     height: 350px;
     object-fit: cover;
+}
+
+@media screen and (max-width: 425px) {
+    .img-container {
+        width: 250px;
+        height: 250px;
+        background-color: var(--bg-cards);
+    }
+    .profile-img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
 }
 
 .pseudo-code {

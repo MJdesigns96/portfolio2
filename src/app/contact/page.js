@@ -33,7 +33,7 @@ export default function Contact () {
                         </Link>
                     </div>
                     <div className='col'>
-                        <Link href="https://github.com/MJdesigns96/W25-Capstone-client" passHref={true} target="_blank">
+                        <Link href="https://github.com/MJdesigns96/" passHref={true} target="_blank">
                             <button className='btn btn-light'>
                                 <div className="row">
                                     <div className="col">
