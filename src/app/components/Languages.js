@@ -15,7 +15,7 @@ export default function Languages({ langs = [] }) {
             <div className="col">
                 <div className="row mx-auto overflow-hidden">
                     {langsArr.map((lang) => (
-                        <div key={lang.value.id} className="col">
+                        <div key={lang.value.id} className="col-2 my-2">
                             <img src={lang.value.url} alt={lang.key} className="lang" />
                         </div>
                     ))}
