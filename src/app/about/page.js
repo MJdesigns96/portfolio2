@@ -10,7 +10,7 @@ export default function AboutMe (props) {
             <div className="col">
                 <div className="row">
                     <div className="col" data-aos="fade-right" >
-                        <h1>Marcus Jeong</h1>
+                        <h1 className='mb-4'>👋 About Me</h1>
                         <div className='row d-flex d-lg-none align-items-middle justify-content-center mb-3'>
                             <Carousel interval={null}>
                                 <CarouselItem >
@@ -24,24 +24,17 @@ export default function AboutMe (props) {
                                 </CarouselItem>
                             </Carousel>
                         </div>
-                        <p>Hi there, my name is Marcus. I'm a Full Stack web developer based out of Toronto Ontario, Canada.</p>
-                        <p>I've tried various different paths before settling on Web Development.</p>
-                        <p>In school I had studied Philosophy and Psychology because I was interested in the workings of the Human Mind. How and why we make decisions and how we think about those descisions.</p>
-                        <p>From this study I had tried various paths before settling on the tech industry. Originally, I had studied UX/UI Design with a focus on UX research. I was fascinated by how people interacted with online media and how design decisions could greatly influence how users would move through a digital product.</p>
-                        <p>While studying UX/UI, I had started to code and had fallen in love with developing websites and applications.</p>
-                        <p>I fell in love with Web Development because it allows me to pursue 2 goals that I find across all of my hobbies and my professional goals: </p>
-                        <p>Allowing me to constantly imrpove and to let me research about topics to find solutions.</p>
-                        <p>I love to get better over time and have fallen in love with the continuous growth that this field allows me to do. I am always learning, testing new things, and becoming a better developer over time.</p>
-                        <p>Every time I run into a problem I am able to search online and research on a solution.</p>
-                        <p>These two things are important to me because I find comfort in being able to be adaptable and learn. I love improving step by step as well as researching on my own on new ways to imrpove.</p>
-
-                        <p>I believe these qualities also appear in my hobbies some of which include:</p>
+                        <p>Hi, I’m Marcus — a Full Stack Web Developer based in Toronto, Canada.</p>
+                        <p>Before diving into tech, I explored different paths, starting with studies in Philosophy and Psychology, where I developed a deep interest in how people think and make decisions. That curiosity led me to UX/UI Design, where I focused on user research and learned how thoughtful design can shape digital experiences.</p>
+                        <p>While studying UX/UI, I discovered coding — and immediately fell in love with the process of building websites and applications from the ground up.</p>
+                        <p>What draws me to Web Development is its perfect blend of continuous learning and problem-solving. I enjoy researching, experimenting, and improving — whether I’m debugging an app, learning a new framework, or exploring a design pattern.</p>
+                        <p>Outside of coding, I’m passionate about:</p>
                         <ul>
-                            <li className='list-group-item'>Cooking 🍳</li>
-                            <li className='list-group-item'>Exercise 🏋️</li>
-                            <li className='list-group-item'>Most things nerdy 😁</li>
+                            <li>Cooking 🍳</li>
+                            <li>Staying active 🏋️</li>
+                            <li>All things nerdy 😁</li>
                         </ul>
-                        <p>If there are any questions about Coding or any of my hobbies please feel free to reach out.</p>
+                        <p>If you're curious about my work, love talking code, or just want to trade recipes or favorite games, feel free to reach out!</p>
                     </div>
                 </div>
             </div>
