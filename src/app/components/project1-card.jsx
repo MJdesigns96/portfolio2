@@ -22,35 +22,15 @@ export default function Project1Card ({ langs = [] }) {
                 </div>
                 <div className="col-md-8 bg-secondary-subtle">
                     <div className="card-body my-auto">
-                        <h3 className="card-title mt-3">Shoe Store - Capstone E-Commerce Project</h3>
+                        <h3 className="card-title mt-3">Capstone E-Commerce Shoe Store</h3>
                         <div className="row mb-3 ms-3 d-none d-lg-flex">
                             <Pill projectLangs = {Projectlangs} langs = {langs} />
                         </div>
                         <p className="card-text">
-                            A 6 week Capstone project meant to showcase our skills gained throughout the year long Web Developement Course.
-                        </p>
-                        <p className="card-text">
-                            For this project I used a MERN stack. 
-                            Has the MVP features for both customers and administrators needed to operate a e-commerce website.
+                            A full-stack MERN e-commerce app built in 6 weeks, featuring customer checkout, admin product management, and a fully modeled database. Built from scratch to showcase end-to-end development skills with real-world challenges like object serialization, image optimization, and CRUD design.
                         </p>
                         <div className="card-footer">
                             <div className="row">
-                                <div className="col">
-                                    <Link href="https://capstone-client-sand.vercel.app/" passHref={true} target="_blank">
-                                        <button type="button" className="btn btn-light">
-                                            <div className="container">
-                                                <div className="row align-items-center bg-light">
-                                                    <div className="col-2">
-                                                        <img src={browser.src} style={{"maxHeight": "48px"}} />
-                                                    </div>
-                                                    <div className="col text-center text-dark">
-                                                        <h5 className="mb-0">Website</h5>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </button>
-                                    </Link>
-                                </div>
                                 <div className="col">
                                     <Link href="https://github.com/MJdesigns96/W25-capstone-server" passHref={true} target="_blank">
                                         <button type="button" className="btn btn-light">

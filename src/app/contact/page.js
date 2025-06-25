@@ -61,7 +61,7 @@ export default function Contact () {
                         </Link>
                     </div>
                     <div className='col'>
-                    <Link href="/Resume-full.pdf" target="_blank" rel="noopener noreferrer">
+                    <Link href="/Marcus Jeong - Resume (2).pdf" target="_blank" rel="noopener noreferrer">
                         <button className='btn btn-light'>
                             <div className="row">
                                 <div className="col">

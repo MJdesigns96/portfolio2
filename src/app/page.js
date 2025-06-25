@@ -146,7 +146,7 @@ const profilePic = (
                 <div className="row p-3">
                       {secondType}
                   </div>
-                  <div className="row p-3 ms-3 pseudo-code rounded d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-delay="100">
+                  <div className="row p-3 ms-3 pseudo-code rounded d-flex align-items-center justify-content-center" data-aos="fade-up" data-aos-delay="500">
                       {welcomeCode}
                   </div>
                   <div className="row p-3 mt-5">
