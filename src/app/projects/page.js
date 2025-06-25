@@ -4,6 +4,7 @@ import styles from './styles.modules.css';
 
 import Project1Card from "../components/project1-card";
 import Project2Card from "../components/project2-card";
+import LodestonePMCard from "../components/lodestonePM-card";
 import Project2 from "./project2/page";
 import Project3 from "./project3/page";
 import Project4 from "./project4/page";
@@ -81,6 +82,9 @@ export default function Projects() {
                 <div className="row my-3">
                     <h2>Languages:</h2>
                     <Languages langs={languages} />
+                </div>
+                <div className="row mt-5">
+                    <LodestonePMCard langs={languages} />
                 </div>
                 <div className="row mt-5">
                     <Project1Card langs={languages} />

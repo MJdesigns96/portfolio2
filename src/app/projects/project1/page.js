@@ -28,30 +28,6 @@ export default function Project1 () {
         <div className="container my-5 px-5 py-0">
             <div className="row">
                 <div className="col">
-                    {/* <nav className="nav mt-1" id="stickyNav">
-                        <div className="row">
-                            <div className="col">
-                                <h3>
-                                    <Link className="text-decoration-none" href="#intro">Intro</Link>
-                                </h3> 
-                            </div>
-                            <div className="col">
-                                <h3>
-                                    <Link className="text-decoration-none" href="#database">Database</Link>
-                                </h3>
-                            </div>
-                            <div className="col">
-                                <h3>
-                                    <Link className="text-decoration-none" href="#features">Features</Link>
-                                </h3>
-                            </div>
-                            <div className="col">
-                                <h3>
-                                    <Link className="text-decoration-none" href="#problems">Problems</Link>
-                                </h3>
-                            </div>
-                        </div>
-                    </nav> */}
                     <h1>🥿 Capstone Project – E-Commerce Shoe Store</h1>
                     <small>A 6-week cumulative project to demonstrate full-stack development skills acquired through Humber College’s year-long Web Development course.</small>
                     <span className="target" id="intro"></span>
